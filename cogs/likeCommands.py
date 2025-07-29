@@ -134,7 +134,7 @@ class LikeCommands(commands.Cog):
                         embed.description = (
                             f"\n"
                             f"┌  ACCOUNT\n"
-                            f"├─ NICKNAME: {data.get('player', 'Unknown')}\n"
+                            f"├─ NICKNAME: {data.get('nickname', 'Unknown')}\n"
                             f"├─ UID: {uid}\n"
                             f"└─ RESULT:\n"
                             f"   ├─ ADDED: +{data.get('likes_added', 0)}\n"
