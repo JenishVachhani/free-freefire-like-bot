@@ -144,8 +144,7 @@ class LikeCommands(commands.Cog):
                     else:
                         embed.description = "\n┌MAX LIKES\n└─This UID has already received the maximum likes today.\n"
 
-                    embed.set_footer(text="DEVELOPED BY THUG")
-                    embed.description += "\n🔗 JOIN : https://discord.gg/awPm5B3QFg"
+                    embed.set_footer(text="DEVELOPED BY 亗 ᴘ ꜱ ʏ ᴄ ʜ ᴏ !!!")
                     await ctx.send(embed=embed, mention_author=True, ephemeral=is_slash)
 
         except asyncio.TimeoutError:
