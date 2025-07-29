@@ -15,7 +15,7 @@ CONFIG_FILE = "like_channels.json"
 class LikeCommands(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.api_host = "https://freelike-nx2.vercel.app/"
+        self.api_host = "https://freelike-nx2.vercel.app"
         self.config_data = self.load_config()
         self.cooldowns = {}
         self.session = aiohttp.ClientSession()
@@ -24,7 +24,7 @@ class LikeCommands(commands.Cog):
         if RAPIDAPI_KEY:
             self.headers = {
                 'x-rapidapi-key': RAPIDAPI_KEY,
-                'x-rapidapi-host': "https://freelike-nx2.vercel.app/"
+                'x-rapidapi-host': "https://freelike-nx2.vercel.app"
             }
 
     def load_config(self):
