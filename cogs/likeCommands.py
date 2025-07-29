@@ -177,8 +177,8 @@ class LikeCommands(commands.Cog):
 
 
     async def _send_api_error(self, ctx):
-        embed = discord.Embed(title="⚠️ Service Unavailable", description="The Free Fire API is not responding at the moment.", color=0xF39C12)
-        embed.add_field(name="Solution", value="Try again in a few minutes.", inline=False)
+        embed = discord.Embed(title="⚠️ Service Unavailable", description="The Free Fire API is not Responding to Ind Region", color=0xF39C12)
+        embed.add_field(name="Solution", value="This is to support only (us/br/sac/na) Regions", inline=False)
         await ctx.send(embed=embed, ephemeral=True)
 
     async def _send_error_embed(self, ctx, title, description, ephemeral=True):
